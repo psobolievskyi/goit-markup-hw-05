@@ -458,7 +458,12 @@
           <div class="container-modal-form">
             <label class="modal-label" for="user-name">Name</label>
             <div class="container-modal-input">
-              <input class="modal-input" type="text" id="user-name" />
+              <input
+                class="modal-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+              />
               <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#person-icon"></use>
               </svg>
@@ -467,7 +472,12 @@
           <div class="container-modal-form">
             <label class="modal-label">Phone</label>
             <div class="container-modal-input">
-              <input class="modal-input" type="text" id="user-name" />
+              <input
+                class="modal-input"
+                type="text"
+                id="user-phone"
+                name="user-name"
+              />
               <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#phone-icon"></use>
               </svg>
@@ -476,23 +486,37 @@
           <div class="container-modal-form">
             <label class="modal-label">Email</label>
             <div class="container-modal-input">
-              <input class="modal-input" type="text" id="user-name" />
+              <input
+                class="modal-input"
+                type="text"
+                id="user-email"
+                name="user-name"
+              />
               <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#phone-icon"></use>
               </svg>
             </div>
           </div>
-          <div class="container-modal-form">
+          <div class="container-modal-form container-comment">
             <label class="modal-label" for="user-comment">Comment</label>
-            <div class="container-modal-input">
-              <textarea
-                class="modal-textarea"
-                type="text"
-                id="user-comment"
-                name="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+            <textarea
+              class="modal-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="container-modal-check">
+            <input
+              class="visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label for="user-privacy"
+              >I accept the terms and conditions of the</label
+            >
           </div>
         </form>
       </div>

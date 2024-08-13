@@ -639,10 +639,37 @@ footer .logo-span {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   fill: transparent;
 }
-.container-modal-check input:checked + .user-privacy-span {
+#user-privacy:checked + .user-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.span-link {
+  color: #4d5ae5;
+}
+.modal-submit-button {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-submit-button:hover {
+  background-color: #404bbf;
+}
+.modal-submit-button:focus {
+  background-color: #404bbf;
 }

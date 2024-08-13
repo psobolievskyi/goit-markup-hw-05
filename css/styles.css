@@ -642,7 +642,7 @@ footer .logo-span {
   justify-content: center;
   fill: transparent;
 }
-.modal-check:checked + .user-privacy-span {
+input[type="checkbox"]:checked + .user-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
